@@ -1,0 +1,22 @@
+Fokoos Odin-5 F3 BLtouch Edition Built on Marlin-bugfix-2.0.x
+
+To update your printer follow instructions in the readme.md file
+
+Bltouch or 3D Touch Auto Bed Level and Wifi pre-configured
+if you have a wifi module installed
+
+Initial X,Y offsets are with the sensor on the right side of extruder cover
+where it was intended to be,check fokoos official BLtouch videos for
+placement of the probe. (X 60, Y -20) , centered on build plate This is the
+distance between the edge of build plate and extruder tip (X) and from the
+extruder tip to probe tip (Y) with the probe tip centered on build plate.
+its not an exact science but just use a ruler and update your offsets in
+settings if your probe is placed elswhere. see picture in images folder.
+The (Z) offset should be left at 1 until you run your initial level settings 
+where you will be prompted to  use + or - with your piece of paper to set
+the Z offset after which you will just use the auto level feature from main menu.
+
+To Change 
+[Settings] [Config] [Leveling Settings] [Nozzle To probe Offsets Settings]
+
+The Printer will wait till its got the bed and hot end up to temp for bed leveling
